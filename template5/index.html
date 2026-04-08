@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMA Nusantara Unggul — Beranda</title>
+  <meta name="description" content="SMA Nusantara Unggul — Sekolah Menengah Atas terbaik dengan pendidikan modern dan karakter unggul." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══ NAVBAR ══════════════════════════════════════════ -->
+  <nav class="navbar" role="navigation" aria-label="Navigasi utama">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__brand" aria-label="SMA Nusantara Unggul - Beranda">
+        <div class="navbar__logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </div>
+        <div class="navbar__brand-text">
+          <div class="navbar__school-name">SMA Nusantara Unggul</div>
+          <div class="navbar__school-type">Sekolah Menengah Atas</div>
+        </div>
+      </a>
+
+      <ul class="navbar__menu" role="list">
+        <li><a href="index.html"    class="navbar__link active">Beranda</a></li>
+        <li><a href="about.html"    class="navbar__link">Tentang</a></li>
+        <li><a href="teachers.html" class="navbar__link">Guru</a></li>
+        <li><a href="students.html" class="navbar__link">Siswa</a></li>
+        <li><a href="contact.html"  class="navbar__link">Kontak</a></li>
+      </ul>
+
+      <a href="contact.html" class="btn btn-primary navbar__cta">Daftar Sekarang</a>
+      <button class="navbar__hamburger" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="navbar__mobile" role="navigation" aria-label="Navigasi mobile">
+    <a href="index.html"    class="navbar__link active">Beranda</a>
+    <a href="about.html"    class="navbar__link">Tentang Sekolah</a>
+    <a href="teachers.html" class="navbar__link">Data Guru</a>
+    <a href="students.html" class="navbar__link">Siswa &amp; Kegiatan</a>
+    <a href="contact.html"  class="navbar__link">Kontak</a>
+    <a href="contact.html"  class="btn btn-primary">Daftar Sekarang</a>
+  </div>
+
+  <!-- ══ HERO ════════════════════════════════════════════ -->
+  <section class="hero" aria-label="Selamat datang">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <span class="hero__badge-dot"></span>
+            Terakreditasi A — Kemdikbud RI
+          </div>
+          <h1 class="hero__title">
+            Membentuk Generasi<br><span>Unggul &amp; Berkarakter</span>
+          </h1>
+          <p class="hero__sub">
+            SMA Nusantara Unggul hadir dengan kurikulum modern, tenaga pendidik berpengalaman, dan lingkungan belajar yang kondusif untuk mencetak pemimpin masa depan.
+          </p>
+          <div class="hero__actions">
+            <a href="contact.html" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              Daftar Sekarang
+            </a>
+            <a href="about.html" class="btn btn-outline">Pelajari Lebih Lanjut</a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <div class="hero__stat-num" data-count="1200" data-suffix="+">0+</div>
+              <div class="hero__stat-lbl">Siswa Aktif</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-num" data-count="85" data-suffix="+">0+</div>
+              <div class="hero__stat-lbl">Tenaga Pendidik</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-num" data-count="25" data-suffix="">0</div>
+              <div class="hero__stat-lbl">Tahun Berdiri</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__card-stack">
+            <div class="hero__card-bg"></div>
+            <div class="hero__card-main">
+              <div class="hero__card-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <h3>Kurikulum Merdeka Belajar</h3>
+              <p>Program pembelajaran inovatif berbasis kompetensi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ KEUNGGULAN ═══════════════════════════════════════ -->
+  <section class="section" aria-labelledby="features-title">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Keunggulan Kami</span>
+        <h2 class="section-title" id="features-title">Mengapa Memilih Kami?</h2>
+        <p class="section-sub">Kami berkomitmen memberikan pendidikan terbaik dengan fasilitas lengkap dan pengajar profesional yang berdedikasi.</p>
+      </div>
+      <div class="features__grid">
+        <div class="feature-card fade-up">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <h3>Kurikulum Modern</h3>
+          <p>Kurikulum Merdeka Belajar yang berfokus pada pengembangan kompetensi, karakter, dan kreativitas siswa secara holistik.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 10-16 0"/></svg>
+          </div>
+          <h3>Guru Berpengalaman</h3>
+          <p>85+ tenaga pendidik tersertifikasi dengan pengalaman rata-rata 10 tahun, lulusan dari universitas terkemuka di Indonesia.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Fasilitas Digital</h3>
+          <p>Laboratorium komputer terkini, Wi-Fi seluruh area, smart board di setiap kelas, dan platform e-learning terintegrasi.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Pembentukan Karakter</h3>
+          <p>Program pembinaan akhlak dan karakter yang terintegrasi dalam setiap aspek kehidupan sekolah sehari-hari.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h3>Program Ekstrakurikuler</h3>
+          <p>30+ kegiatan ekstrakurikuler dari olahraga, seni, sains, hingga kepemimpinan untuk mengembangkan bakat siswa.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Komunitas Aktif</h3>
+          <p>Ekosistem belajar yang positif dengan komunitas alumni kuat, OSIS aktif, dan keterlibatan orang tua yang terstruktur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PROGRAM UNGGULAN ══════════════════════════════════ -->
+  <section class="section section-alt" aria-labelledby="programs-title">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Program Unggulan</span>
+        <h2 class="section-title" id="programs-title">Program Jurusan &amp; Minat</h2>
+        <p class="section-sub">Pilih jalur belajar sesuai minat dan bakat untuk meraih masa depan yang gemilang.</p>
+      </div>
+      <div class="programs__grid">
+        <div class="program-card fade-up">
+          <div class="program-card__num">01</div>
+          <div>
+            <h3>IPA — Sains &amp; Teknologi</h3>
+            <p>Program jurusan Ilmu Pengetahuan Alam yang memfokuskan pada matematika, fisika, kimia, dan biologi dengan lab modern berteknologi tinggi.</p>
+          </div>
+        </div>
+        <div class="program-card fade-up">
+          <div class="program-card__num">02</div>
+          <div>
+            <h3>IPS — Sosial &amp; Humaniora</h3>
+            <p>Jurusan Ilmu Pengetahuan Sosial yang mengembangkan kemampuan analisis sosial, ekonomi, dan ilmu kemanusiaan secara komprehensif.</p>
+          </div>
+        </div>
+        <div class="program-card fade-up">
+          <div class="program-card__num">03</div>
+          <div>
+            <h3>Bahasa &amp; Sastra</h3>
+            <p>Program bahasa yang memperdalam kemampuan linguistik, sastra Indonesia, dan bahasa asing untuk bekal komunikasi global.</p>
+          </div>
+        </div>
+        <div class="program-card fade-up">
+          <div class="program-card__num">04</div>
+          <div>
+            <h3>Kelas Akselerasi &amp; Olimpiade</h3>
+            <p>Program khusus bagi siswa berprestasi untuk persiapan olimpiade sains nasional dan internasional dengan bimbingan intensif.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ STATISTICS BANNER ════════════════════════════════ -->
+  <div class="stats-banner" role="region" aria-label="Statistik sekolah">
+    <div class="container">
+      <div class="stats-banner__grid">
+        <div class="fade-up">
+          <div class="stats-banner__item-num">
+            <span data-count="1200" data-suffix="+">0+</span>
+          </div>
+          <div class="stats-banner__item-lbl">Siswa Aktif</div>
+        </div>
+        <div class="fade-up">
+          <div class="stats-banner__item-num">
+            <span data-count="85" data-suffix="+">0+</span>
+          </div>
+          <div class="stats-banner__item-lbl">Tenaga Pendidik</div>
+        </div>
+        <div class="fade-up">
+          <div class="stats-banner__item-num">
+            <span data-count="98" data-suffix="%">0%</span>
+          </div>
+          <div class="stats-banner__item-lbl">Kelulusan</div>
+        </div>
+        <div class="fade-up">
+          <div class="stats-banner__item-num">
+            <span data-count="150" data-suffix="+">0+</span>
+          </div>
+          <div class="stats-banner__item-lbl">Penghargaan</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PREVIEW GURU ══════════════════════════════════════ -->
+  <section class="section" aria-labelledby="teachers-preview-title">
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px;">
+        <div>
+          <span class="section-label">Tim Pengajar</span>
+          <h2 class="section-title" id="teachers-preview-title">Guru Kami yang Berpengalaman</h2>
+        </div>
+        <a href="teachers.html" class="btn btn-primary">Lihat Semua Guru</a>
+      </div>
+      <div class="teachers-preview__grid">
+        <div class="teacher-card fade-up">
+          <div class="teacher-card__img">
+            <div class="teacher-card__img-placeholder">AS</div>
+          </div>
+          <div class="teacher-card__body">
+            <h3>Dr. Ahmad Santoso</h3>
+            <p style="font-size:.82rem;color:var(--clr-gray-400);">Kepala Sekolah</p>
+            <span class="teacher-card__subject">Manajemen Pendidikan</span>
+          </div>
+        </div>
+        <div class="teacher-card fade-up">
+          <div class="teacher-card__img">
+            <div class="teacher-card__img-placeholder">SR</div>
+          </div>
+          <div class="teacher-card__body">
+            <h3>Siti Rahayu, M.Pd</h3>
+            <p style="font-size:.82rem;color:var(--clr-gray-400);">Guru Senior</p>
+            <span class="teacher-card__subject">Matematika</span>
+          </div>
+        </div>
+        <div class="teacher-card fade-up">
+          <div class="teacher-card__img">
+            <div class="teacher-card__img-placeholder">BW</div>
+          </div>
+          <div class="teacher-card__body">
+            <h3>Budi Wibowo, S.Si</h3>
+            <p style="font-size:.82rem;color:var(--clr-gray-400);">Guru Senior</p>
+            <span class="teacher-card__subject">Fisika</span>
+          </div>
+        </div>
+        <div class="teacher-card fade-up">
+          <div class="teacher-card__img">
+            <div class="teacher-card__img-placeholder">DN</div>
+          </div>
+          <div class="teacher-card__body">
+            <h3>Dewi Nurhayati, M.Hum</h3>
+            <p style="font-size:.82rem;color:var(--clr-gray-400);">Guru Senior</p>
+            <span class="teacher-card__subject">Bahasa Inggris</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CTA ══════════════════════════════════════════════ -->
+  <section class="cta" aria-labelledby="cta-title">
+    <div class="container cta__inner">
+      <span class="section-label" style="background:rgba(255,255,255,.15);color:rgba(255,255,255,.85);">Penerimaan Peserta Didik Baru 2025/2026</span>
+      <h2 id="cta-title">Mulai Perjalanan Belajarmu Bersama Kami</h2>
+      <p>Daftarkan dirimu sekarang dan raih masa depan cerah bersama SMA Nusantara Unggul. Pendaftaran dibuka hingga 31 Juli 2025.</p>
+      <div class="cta__actions">
+        <a href="contact.html" class="btn btn-accent">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Daftar Sekarang
+        </a>
+        <a href="about.html" class="btn btn-outline">Pelajari Sekolah Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="navbar__logo-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <div class="footer__brand-name">SMA Nusantara Unggul</div>
+          <p>Membentuk generasi unggul, berkarakter, dan berdaya saing global untuk Indonesia yang lebih baik.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navigasi</h4>
+          <a href="index.html">Beranda</a>
+          <a href="about.html">Tentang Sekolah</a>
+          <a href="teachers.html">Data Guru</a>
+          <a href="students.html">Siswa &amp; Kegiatan</a>
+          <a href="contact.html">Kontak</a>
+        </div>
+        <div class="footer__col">
+          <h4>Program</h4>
+          <a href="about.html">IPA — Sains &amp; Teknologi</a>
+          <a href="about.html">IPS — Sosial &amp; Humaniora</a>
+          <a href="about.html">Bahasa &amp; Sastra</a>
+          <a href="about.html">Kelas Akselerasi</a>
+        </div>
+        <div class="footer__col">
+          <h4>Kontak</h4>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Jl. Pendidikan No. 45, Kec. Menteng, Jakarta Pusat, DKI Jakarta 10310
+          </div>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.61 3.12 2 2 0 013.58 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.96a16 16 0 006.29 6.29l1.02-.92a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            (021) 3145-6789
+          </div>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            info@smanusantara.sch.id
+          </div>
+        </div>
+      </div>
+      <hr class="footer__divider" />
+      <div class="footer__bottom">
+        <span>&copy; 2025 SMA Nusantara Unggul. Semua hak dilindungi.</span>
+        <span>Terakreditasi A — Kemdikbud RI</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

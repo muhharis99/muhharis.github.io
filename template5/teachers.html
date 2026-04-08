@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Guru — SMA Nusantara Unggul</title>
+  <meta name="description" content="Kenali para tenaga pendidik profesional dan berpengalaman di SMA Nusantara Unggul." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══ NAVBAR ══════════════════════════════════════════ -->
+  <nav class="navbar" role="navigation" aria-label="Navigasi utama">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__brand">
+        <div class="navbar__logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </div>
+        <div class="navbar__brand-text">
+          <div class="navbar__school-name">SMA Nusantara Unggul</div>
+          <div class="navbar__school-type">Sekolah Menengah Atas</div>
+        </div>
+      </a>
+      <ul class="navbar__menu" role="list">
+        <li><a href="index.html"    class="navbar__link">Beranda</a></li>
+        <li><a href="about.html"    class="navbar__link">Tentang</a></li>
+        <li><a href="teachers.html" class="navbar__link active">Guru</a></li>
+        <li><a href="students.html" class="navbar__link">Siswa</a></li>
+        <li><a href="contact.html"  class="navbar__link">Kontak</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary navbar__cta">Daftar Sekarang</a>
+      <button class="navbar__hamburger" aria-label="Buka menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="navbar__mobile">
+    <a href="index.html"    class="navbar__link">Beranda</a>
+    <a href="about.html"    class="navbar__link">Tentang Sekolah</a>
+    <a href="teachers.html" class="navbar__link active">Data Guru</a>
+    <a href="students.html" class="navbar__link">Siswa &amp; Kegiatan</a>
+    <a href="contact.html"  class="navbar__link">Kontak</a>
+    <a href="contact.html"  class="btn btn-primary">Daftar Sekarang</a>
+  </div>
+
+  <!-- ══ PAGE HERO ════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="container page-hero__inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Beranda</a>
+        <span class="breadcrumb__sep">/</span>
+        <span>Data Guru</span>
+      </nav>
+      <span class="section-label">Tim Pendidik</span>
+      <h1>Guru &amp; Tenaga Pendidik</h1>
+      <p>85+ pendidik profesional berlisensi dan berpengalaman yang berdedikasi membimbing setiap siswa menuju potensi terbaik mereka.</p>
+    </div>
+  </section>
+
+  <!-- ══ KEPALA SEKOLAH & WAKIL ══════════════════════════ -->
+  <section class="section" aria-labelledby="leadership-title">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Pimpinan Sekolah</span>
+        <h2 class="section-title" id="leadership-title">Kepala Sekolah &amp; Wakil</h2>
+        <p class="section-sub">Dipimpin oleh tenaga ahli berpengalaman di bidang manajemen pendidikan dan kurikulum.</p>
+      </div>
+      <div class="teachers__grid" style="grid-template-columns:repeat(3,1fr);max-width:900px;margin:56px auto 0;">
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img">
+            <div class="teacher-card-full__avatar">AS</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Dr. Ahmad Santoso, M.Pd</h3>
+            <p class="teacher-card-full__role">Kepala Sekolah</p>
+            <span class="teacher-card-full__subject">Manajemen Pendidikan</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>22 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S3</strong>Pendidikan</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#FEF3C7,#FDE68A);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#F59E0B,#D97706);">RH</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Ratna Hayati, M.M</h3>
+            <p class="teacher-card-full__role">Wakil Kepala — Kurikulum</p>
+            <span class="teacher-card-full__subject">Kurikulum &amp; Pembelajaran</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>18 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S2</strong>Pendidikan</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#ECFDF5,#D1FAE5);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#10B981,#059669);">YP</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Yusuf Prasetyo, S.Pd</h3>
+            <p class="teacher-card-full__role">Wakil Kepala — Kesiswaan</p>
+            <span class="teacher-card-full__subject">Bimbingan &amp; Konseling</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>15 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Pendidikan</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ GURU MATA PELAJARAN ══════════════════════════════ -->
+  <section class="section section-alt" aria-labelledby="teachers-main-title">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Mata Pelajaran</span>
+        <h2 class="section-title" id="teachers-main-title">Guru Mata Pelajaran</h2>
+        <p class="section-sub">Setiap mata pelajaran diampu oleh pendidik spesialis yang tersertifikasi dan berpengalaman di bidangnya masing-masing.</p>
+      </div>
+      <div class="teachers__grid">
+        <!-- SAINS -->
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img"><div class="teacher-card-full__avatar">SR</div></div>
+          <div class="teacher-card-full__body">
+            <h3>Siti Rahayu, M.Pd</h3>
+            <p class="teacher-card-full__role">Guru Senior</p>
+            <span class="teacher-card-full__subject">Matematika</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>16 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S2</strong>Matematika</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#EFF6FF,#DBEAFE);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#3B82F6,#2563EB);">BW</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Budi Wibowo, S.Si</h3>
+            <p class="teacher-card-full__role">Guru Senior</p>
+            <span class="teacher-card-full__subject">Fisika</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>14 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Fisika</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#22C55E,#16A34A);">NP</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Nila Pertiwi, S.Si</h3>
+            <p class="teacher-card-full__role">Guru Madya</p>
+            <span class="teacher-card-full__subject">Kimia</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>11 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Kimia</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#FFF7ED,#FED7AA);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#F97316,#EA580C);">HK</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Hendra Kusuma, S.Pd</h3>
+            <p class="teacher-card-full__role">Guru Madya</p>
+            <span class="teacher-card-full__subject">Biologi</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>9 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Biologi</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BAHASA -->
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#FDF4FF,#F3E8FF);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#A855F7,#9333EA);">DN</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Dewi Nurhayati, M.Hum</h3>
+            <p class="teacher-card-full__role">Guru Senior</p>
+            <span class="teacher-card-full__subject">Bahasa Inggris</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>17 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S2</strong>Linguistik</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#FFF1F2,#FFE4E6);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#F43F5E,#E11D48);">AM</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Ayu Maharani, S.Pd</h3>
+            <p class="teacher-card-full__role">Guru Madya</p>
+            <span class="teacher-card-full__subject">Bahasa Indonesia</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>10 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Sastra</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- IPS -->
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#ECFEFF,#CFFAFE);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#06B6D4,#0891B2);">RS</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Rudi Susanto, M.Si</h3>
+            <p class="teacher-card-full__role">Guru Senior</p>
+            <span class="teacher-card-full__subject">Ekonomi</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>13 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S2</strong>Ekonomi</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#14B8A6,#0D9488);">LH</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Lina Hastuti, S.Pd</h3>
+            <p class="teacher-card-full__role">Guru Madya</p>
+            <span class="teacher-card-full__subject">Sejarah</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>8 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Sejarah</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAINNYA -->
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#FFFBEB,#FEF3C7);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#EAB308,#CA8A04);">FN</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Fajar Nugroho, S.Kom</h3>
+            <p class="teacher-card-full__role">Guru Madya</p>
+            <span class="teacher-card-full__subject">Informatika</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>7 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Komputer</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#FFF7ED,#FED7AA);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#FB923C,#F97316);">MW</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Mega Wulandari, S.Pd</h3>
+            <p class="teacher-card-full__role">Guru Muda</p>
+            <span class="teacher-card-full__subject">Seni Budaya</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>5 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Seni</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#F8FAFC,#E2E8F0);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#64748B,#475569);">PT</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Prabowo Tanoto, S.Pd</h3>
+            <p class="teacher-card-full__role">Guru Madya</p>
+            <span class="teacher-card-full__subject">PJOK</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>12 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Olahraga</div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher-card-full fade-up">
+          <div class="teacher-card-full__img" style="background:linear-gradient(135deg,#FDF4FF,#F3E8FF);">
+            <div class="teacher-card-full__avatar" style="background:linear-gradient(135deg,#C026D3,#A21CAF);">IR</div>
+          </div>
+          <div class="teacher-card-full__body">
+            <h3>Indah Rahmawati, S.Ag</h3>
+            <p class="teacher-card-full__role">Guru Madya</p>
+            <span class="teacher-card-full__subject">Agama &amp; Budi Pekerti</span>
+            <hr class="teacher-card-full__divider" />
+            <div class="teacher-card-full__meta">
+              <div class="teacher-card-full__meta-item"><strong>11 Thn</strong>Pengalaman</div>
+              <div class="teacher-card-full__meta-item"><strong>S1</strong>Agama</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ TENAGA KEPENDIDIKAN ══════════════════════════════ -->
+  <section class="section" aria-labelledby="staff-title">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Tenaga Kependidikan</span>
+        <h2 class="section-title" id="staff-title">Staf Administrasi &amp; Pendukung</h2>
+        <p class="section-sub">Tim administrasi dan staf pendukung yang handal memastikan operasional sekolah berjalan lancar setiap harinya.</p>
+      </div>
+      <div class="staff__grid">
+        <div class="staff-card fade-up">
+          <div class="staff-card__avatar">TM</div>
+          <div>
+            <h4>Tanti Mulyani, S.E</h4>
+            <p>Kepala Tata Usaha</p>
+          </div>
+        </div>
+        <div class="staff-card fade-up">
+          <div class="staff-card__avatar" style="background:linear-gradient(135deg,#F59E0B,#D97706);">DP</div>
+          <div>
+            <h4>Dika Pratama</h4>
+            <p>Bendahara Sekolah</p>
+          </div>
+        </div>
+        <div class="staff-card fade-up">
+          <div class="staff-card__avatar" style="background:linear-gradient(135deg,#10B981,#059669);">SA</div>
+          <div>
+            <h4>Sari Anggraini, A.Md</h4>
+            <p>Pustakawan</p>
+          </div>
+        </div>
+        <div class="staff-card fade-up">
+          <div class="staff-card__avatar" style="background:linear-gradient(135deg,#3B82F6,#2563EB);">RW</div>
+          <div>
+            <h4>Rendi Wijaya, S.Kom</h4>
+            <p>Teknisi IT &amp; Lab Komputer</p>
+          </div>
+        </div>
+        <div class="staff-card fade-up">
+          <div class="staff-card__avatar" style="background:linear-gradient(135deg,#F43F5E,#E11D48);">NH</div>
+          <div>
+            <h4>Nur Halimah</h4>
+            <p>Petugas UKS</p>
+          </div>
+        </div>
+        <div class="staff-card fade-up">
+          <div class="staff-card__avatar" style="background:linear-gradient(135deg,#A855F7,#9333EA);">GS</div>
+          <div>
+            <h4>Galih Santoso</h4>
+            <p>Koordinator Keamanan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CTA ══════════════════════════════════════════════ -->
+  <section class="cta">
+    <div class="container cta__inner">
+      <span class="section-label" style="background:rgba(255,255,255,.15);color:rgba(255,255,255,.85);">Bergabunglah</span>
+      <h2>Ingin Bergabung Sebagai Tenaga Pendidik?</h2>
+      <p>Kami selalu membuka kesempatan bagi pendidik profesional yang berdedikasi untuk bergabung dalam keluarga besar SMA Nusantara Unggul.</p>
+      <div class="cta__actions">
+        <a href="contact.html" class="btn btn-accent">Hubungi Kami</a>
+        <a href="students.html" class="btn btn-outline">Lihat Kegiatan Siswa</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="navbar__logo-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <div class="footer__brand-name">SMA Nusantara Unggul</div>
+          <p>Membentuk generasi unggul, berkarakter, dan berdaya saing global untuk Indonesia yang lebih baik.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navigasi</h4>
+          <a href="index.html">Beranda</a>
+          <a href="about.html">Tentang Sekolah</a>
+          <a href="teachers.html">Data Guru</a>
+          <a href="students.html">Siswa &amp; Kegiatan</a>
+          <a href="contact.html">Kontak</a>
+        </div>
+        <div class="footer__col">
+          <h4>Program</h4>
+          <a href="#">IPA — Sains &amp; Teknologi</a>
+          <a href="#">IPS — Sosial &amp; Humaniora</a>
+          <a href="#">Bahasa &amp; Sastra</a>
+          <a href="#">Kelas Akselerasi</a>
+        </div>
+        <div class="footer__col">
+          <h4>Kontak</h4>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Jl. Pendidikan No. 45, Menteng, Jakarta Pusat
+          </div>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            info@smanusantara.sch.id
+          </div>
+        </div>
+      </div>
+      <hr class="footer__divider" />
+      <div class="footer__bottom">
+        <span>&copy; 2025 SMA Nusantara Unggul. Semua hak dilindungi.</span>
+        <span>Terakreditasi A — Kemdikbud RI</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
